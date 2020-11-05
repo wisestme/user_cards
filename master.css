@@ -87,3 +87,260 @@ span {
     display: block;
     font-weight: normal;
 }
+
+/* BLOG CARDS */
+section .container {
+    padding: 1em;
+}
+
+#blog_cards {
+    background: #fff;
+}
+
+#blog_cards .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.share > div{
+    border: 1px solid #ddd;
+    display: inline-block;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+.share img {
+    margin-right: 0.5em;
+}
+
+.post h2 {
+    margin-bottom: 0.5em;
+}
+
+#blog_cards ul {
+    margin: 1.5em 0;
+    list-style: none;
+    align-self: start;
+    margin-bottom: 2em;
+    width: 100%;
+    
+}
+
+#blog_cards ul li {
+    display: inline;
+    margin-right: 0.5em;
+    border: 1px solid #ddd;
+    padding: 0.5em 1em;
+    border-radius: 5px;  
+}
+
+.sponsored {
+    position: relative;
+    background-image: url(./images/fem.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 98%;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+}
+
+.sponsored a {
+    position: absolute;
+    bottom: -52px;
+    border: 1px solid #ddd;
+    text-align: center;
+    width: 100%;
+    padding: 1em;
+    border-radius: 0 0 10px 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.download {
+    margin-top: 6em;
+    text-align: center;
+}
+
+.download button {
+    background: #4ED3CF;
+    color: #fff;
+    border: none;
+    padding: 2em;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    box-shadow: 0 3px 6px #aaa;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.download p {
+    padding: 0 1em;
+}
+
+#color {
+    background: #fff;
+    padding: 2em 1em;
+    
+}
+#color .container {
+    padding: 1em 0.2em;
+    text-align: center;
+    height: 300px;
+    background: #F7F7FC;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 4em 0;
+}
+
+
+.color_codes { 
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1em auto;
+    max-width: 400px;
+}
+
+.color_codes div:first-child > span {
+    background: #F3FBFB;
+}
+
+.color_codes div:nth-child(2) > span {
+    background: #584255;
+}
+
+.color_codes div:nth-child(3) > span {
+    background: #A196A6;
+}
+
+.color_codes div:nth-child(4) > span {
+    background: #9F7E71;
+}
+
+.color_codes div:nth-child(5) > span {
+    background: #51ADC4;
+}
+
+.color_codes div:nth-child(6) > span {
+    background: #B69697;
+}
+
+.sample_color {
+    display: flex;
+    align-items: center;
+    margin: 1em;
+    background: #fff;
+    padding: 0.5em 1em;
+    border-radius: 25px;
+}
+
+.sample_color span {
+    width: 20px;
+    height: 20px;
+    background: chartreuse;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer {
+    background: #fff;
+    border-top: 1px solid #ddd;
+}
+
+footer .container {
+    padding: 1em;
+    text-align: center;
+}
+
+footer ul {
+    margin: 2em;
+}
+
+footer li {
+    display: inline;
+    list-style: none;
+    margin: 1em;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em auto 0 auto;
+    fill: #bbb;
+    width: 80%;
+}
+
+.social svg {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 2em;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 770px) {
+    .no_small {
+        display: inline;
+    }
+
+    .small {
+        display: none;
+    }
+
+    nav a {
+        text-decoration: none;
+        margin-left: 1em;
+        color: #bbb;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .cards {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1em;
+    }
+    .card {
+        width: 30%;
+    }
+
+    footer {
+        display: flex;
+    }
+
+    footer .container {
+        display: flex;
+        width: 60%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .social {
+        width: 30%;
+        align-self: center;
+        justify-content: space-around;
+        margin-right: 0;
+    }
+
+    
+}
+
+@media screen and (min-width: 1200px) {
+    main .container {
+        display: flex;
+    }
+
+    .right_side {
+        width: 35%;
+    }
+
+    
+}
