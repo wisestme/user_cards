@@ -39,9 +39,10 @@ header svg {
     background-image: linear-gradient(135deg, #7C71D3 0%, #C891CF 70%);
 }
 
-svg {
+.card > svg {
     width: 15px;
     align-self: flex-end;
+    color: #aaa;
 }
 
 .cards {
