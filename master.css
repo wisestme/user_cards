@@ -156,7 +156,7 @@ section .container {
 
 .sponsored {
     position: relative;
-    background-image: url(./images/app_signal.png);
+    background-image: url(./images/fem.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -403,5 +403,12 @@ footer li {
     #blog_cards ul li {
         margin-right: 0.3em;
         padding: 0.3em 0.5em;  
+    }
+
+    .sponsored {
+        background-image: url(./images/fem_small.png);
+        background-size: contain;
+        width: 100%;
+       
     }
 }
