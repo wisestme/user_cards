@@ -13,9 +13,12 @@ body {
 }
 
 header > .container {
+    position: fixed;
+    width: 100%;
     padding: 2em;
     display: flex;
     justify-content: space-between;
+    background: #fff;
     }
 
 header svg {
