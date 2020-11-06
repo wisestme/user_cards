@@ -47,10 +47,10 @@ svg {
 .cards {
     position: relative;
     top: -8em;
-    padding: 2em;
+    padding: 1em;
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 96%;
     margin: 0 auto;
 }
 
