@@ -310,6 +310,7 @@ footer li {
     width: 100vw;
     position: fixed;
     top: 0;
+    display: none;
 }
 
 #modal > .container {
