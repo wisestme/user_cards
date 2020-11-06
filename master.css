@@ -29,6 +29,10 @@ header svg {
         height: 30px;
     }
 
+nav a {
+        text-decoration: none;
+    }
+
 .fa-cross {
         display: none;
     }
