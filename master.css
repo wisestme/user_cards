@@ -296,6 +296,39 @@ footer li {
     margin-bottom: 2em;
 }
 
+/* MODAL */
+#modal {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+}
+
+#modal > .container {
+   background: #fff;
+    height: 100%;
+    border: 2px solid red;
+}
+
+#modal nav {
+    margin-top: 6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+}
+
+#modal nav a {
+    color: #aaa;
+}
+
+#modal footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 /* MEDIA QUERIES */
 @media screen and (min-width: 770px) {
     .no_small {
