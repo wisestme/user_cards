@@ -29,6 +29,10 @@ header svg {
         height: 30px;
     }
 
+.fa-cross {
+        display: none;
+    }
+
     main {
         margin-top: 6em;
     }
