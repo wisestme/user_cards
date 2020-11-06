@@ -20,6 +20,7 @@ header > .container {
     justify-content: space-between;
     background: #fff;
     z-index: 1;
+    box-shadow: 2px 0 6px #ddd;
     }
 
 header svg {
