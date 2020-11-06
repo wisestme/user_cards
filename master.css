@@ -55,8 +55,8 @@ svg {
 }
 
 .card {
-    width: 70%;
-    height: 50vh;
+    width: 90%;
+    height: 400px;
     background: #fff;
     margin: 1em auto;
     display: flex;
@@ -347,7 +347,9 @@ footer li {
     main .container {
         display: flex;
     }
-
+    .left_side {
+        width: 75%;
+    }
     .right_side {
         width: 35%;
     }
