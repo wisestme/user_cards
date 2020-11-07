@@ -6,6 +6,7 @@
 
 body {
     background: #ddd;
+    font-family: sans-serif;
 }
 
 .no_small {
@@ -287,7 +288,7 @@ footer ul {
 footer li {
     display: inline;
     list-style: none;
-    margin: 1em;
+    margin: 1em 0.5em 1em 0;
 }
 
 .social {
